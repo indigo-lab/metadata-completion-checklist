@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@type": "dcat:Dataset",
+  "dct:title": "昭和三十八年報告書",
+  "dct:temporal": {
+    "@type": "dct:PeriodOfTime",
+    "dcat:startDate": {
+      "@value": "1963-01-01",
+      "@type": "xsd:date"
+    },
+    "dcat:endDate": {
+      "@value": "1963-12-31",
+      "@type": "xsd:date"
+    }
+  }
+}
